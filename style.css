@@ -33,6 +33,7 @@
 
 .nav-items{
     display: flex;
+    align-items: center;
     
 }
 
@@ -42,6 +43,32 @@
     color: white;
     font-size: 20px;
     margin-right: 20px;
+    outline: none;
+    transition: all ease 0.2s;
+
+}
+
+a:hover{
+    color: red;
+}
+
+.search{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    border-radius: 3px;
+    padding: 5px  10px;
+
+}
+
+.search input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+
+
 
 }
 
@@ -50,7 +77,6 @@
         padding: 10px;
         display: flex;
         flex-direction: column;
-        
         justify-content: flex-start;
         background: black;
     }
@@ -64,14 +90,15 @@
     .nav-items{
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         height: 100vh;
         width: 70%;
         position: fixed;
-    top: 0;
-    left: -100%;
+         top: 0;
+         left: -100%;
         z-index: 99;
         background: red;
-        padding: 20px ;
+        padding: 10px ;
         transition: all ease 600ms;
 
         

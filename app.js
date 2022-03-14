@@ -1,5 +1,4 @@
 const toggle = document.querySelector('#toggle');
-// const nav = document.querySelector('.nav-items');
 
 toggle.addEventListener('click',()=>{
     console.log('clicked')
