@@ -84,20 +84,75 @@
 
 .banner{
     height: 75vh;
-    width: 100vw;
-    background: gray;
+    background: url('./assets/banner.jpg') no-repeat;
+    background-position: unset;
+    background-size: cover;
     position: relative;
     display: flex;
+    z-index: -1;
+
     align-items: center ;
     justify-content: flex-end;
 }
 
 .text-con{
     position: absolute;
-    margin-right: 50px;
-    background: red;
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+    margin-top: 200px;
+    margin-right: 70px;
+    /* background: red; */
     height: 200px;
     width: 400px;
+}
+
+.new-container{
+    padding: 50px 140px;
+    
+}
+.items-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    
+}
+.item-image-con{
+    height: 150px;
+    width: 250px;
+    background-color: green;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+}
+.item-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.item-tag{
+    position: absolute;
+    z-index: 1;
+    margin: 15px 10px 0 0;
+    background-color: red;
+    font-size: 15px;
+    padding: 2px 7px;
+  
+
+    
+    
+}
+.item-desc{
+    
+    
 }
 
 @media screen and (max-width: 1024px){
@@ -136,7 +191,7 @@
         position: fixed;
          top: 0;
          left: -100%;
-        z-index: 99;
+        z-index: 7;
         background: red;
         padding: 10px ;
         transition: all ease 600ms;
@@ -151,11 +206,65 @@
     .nav-item{
         padding: 20px 0;
     }
+
+.banner{
+    height: 60vh;
+}
+
     .text-con{
-        position: absolute;
+        margin-top: 60px;
         margin-right: 10px;
-        background: red;
         height: 100px;
         width: 200px;
     }
+
+    .new-container{
+        padding: 50px 30px;
+        
+    }
+
+    .items-con{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .item-image-con{
+        height: 150px;
+        width: 250px;
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        
+    }
+    .item-image{
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        object-fit: cover;
+        
+    }
+    .item-tag{
+        position: absolute;
+        /* z-index: 2; */
+        margin: 15px 10px 0 0;
+        background-color: red;
+        font-size: 15px;
+        padding: 2px 7px;
+      
+    
+        
+        
+    }
+    .item-desc{
+        
+        
+    }
+    
 }
