@@ -5,15 +5,20 @@
     font-family: Poppins;
 }
 
+ .container{
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 5.20673px 72.8942px rgba(0, 0, 0, 0.12);
+    z-index: 999;
+}
+
 .navbar{
     padding: 20px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: black;
-    position: sticky;
-    top: 0;
-    box-shadow: 0px 5.20673px 72.8942px rgba(0, 0, 0, 0.12);
+  
 
 }
 
@@ -81,11 +86,21 @@
     outline: none;
 }
 
+.profile{
+    margin-left: 10px;
+}
+.user-con{
+    height: 40px;
+    width: 40px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
 
 .banner{
     height: 75vh;
-    background: url('./assets/banner.jpg') no-repeat;
-    background-position: unset;
+    background: url('./assets/banner1.jpg') no-repeat;
+    background-position: center;
     background-size: cover;
     position: relative;
     display: flex;
@@ -97,22 +112,30 @@
 
 .text-con{
     position: absolute;
-backdrop-filter: blur( 2.5px );
--webkit-backdrop-filter: blur( 2.5px );
 border-radius: 10px;
     margin-top: 200px;
     margin-right: 70px;
-    /* background: red; */
-    height: 200px;
+    height: 100px;
     width: 400px;
 }
 
 .new-container{
-    padding: 50px 100px;
+   
     
 }
-.items-con{
 
+.con-title{
+   padding: 40px 0 0 40px ;
+    
+}
+
+.tet{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.items-con{
+    padding: 50px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -121,6 +144,7 @@ border-radius: 10px;
 }
 
 .items-con .item-link{
+    min-width: 200px;
     text-decoration: none;
     margin-bottom: 40px;
     /* margin:  10px; */
@@ -192,7 +216,7 @@ border-radius: 10px;
 }
 .item-rent{
     background: red;
-    padding: 4px 10px;
+    padding: 6px 10px;
     color: white;
     cursor: pointer;
     width: 100%;
@@ -273,17 +297,14 @@ border-radius: 10px;
     }
 
     .new-container{
-        padding: 50px 30px;
         
     }
 
     
     .items-con{
-flex-wrap: nowrap;
+    flex-wrap: nowrap; 
+    padding: 20px 20px;
 
-
-
-        
     }
 
   
@@ -322,5 +343,13 @@ flex-wrap: nowrap;
     .item-desc{
         
     }
+
+    .con-title{
+        padding: 40px 0 0 20px ;
+         
+     }
+     .tet{
+         font-size: 30px;
+     }
     
 }

@@ -1,25 +1,29 @@
-import { bicycles } from "./data";
+import { bicycles, cards } from "./data.js";
 
 
 document.addEventListener('DOMContentLoaded', ()=>{
     const listData = document.querySelector('.items-con');
+    const cardData = document.querySelector('.card')
 
-    let output = '';
+    let bicycleOutput = '';
+    let cardOutput = '';
+
     
-    bicycles.forEach((bicycles) => {
-        output+=`
+    bicycles.forEach((bicycle) => {
+        bicycleOutput+=`
         <a href="./itemPage.html" class="item-link">
         <div class="item contain">
             <div class="item-image-con">
-                <img src="./assets/img2.jpg" alt="" class="item-image">
-                <div class="item-tag">$200</div>
+                <img src="./assets/by1.jpg" alt="" class="item-image">
+                <div class="item-tag">$${bicycle.price}
+                </div>
             </div>
             <div class="item-desc">
                 <div class="item-title">
-                    ${bicycles.title}
+                    ${bicycle.name}
                 </div>
                 <div class="item-detail">
-                    Good for outing rides <br/> rides rides
+                  ${bicycle.desc}
                 </div>
                 <div class="item-action">
                    <div class="item-price"> </div>
@@ -35,6 +39,18 @@ document.addEventListener('DOMContentLoaded', ()=>{
         
         `
     })
+
+    cards.forEach((card) =>{
+        cardOutput +=` 
+        
+        
+        
+        
+        
+        `
+
+    })
     
-    listData.innerHTML = output
+    listData.innerHTML = bicycleOutput
+    cardData.innerHTML = cardOutput
 });
