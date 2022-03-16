@@ -87,13 +87,21 @@
 }
 
 .profile{
-    margin-left: 10px;
+    margin-left: 40px;
+
+}
+
+.profile a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
 .user-con{
-    height: 40px;
-    width: 40px;
-    background-color: aliceblue;
-    border-radius: 50%;
+    background: red;
+    padding: 5px 15px;
+    border-radius: 5px;
+
+    
 }
 
 
@@ -437,6 +445,20 @@ border-radius: 10px;
     .nav-item{
         padding: 20px 0;
     }
+
+    .profile{
+        margin: 20px 0 0 0;
+    
+    }
+    
+ 
+    .user-con{
+        background: black;
+        padding: 5px 20px;
+    
+        
+    }
+    
 
 .banner{
     height: 60vh;
