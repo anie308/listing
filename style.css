@@ -108,23 +108,33 @@ border-radius: 10px;
 }
 
 .new-container{
-    padding: 50px 140px;
+    padding: 50px 100px;
     
 }
 .items-con{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     
+}
+
+.items-con .item-link{
+    text-decoration: none;
+    margin-bottom: 40px;
+    /* margin:  10px; */
 }
 .item{
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
+
     
 }
 .item-image-con{
     height: 150px;
-    width: 250px;
+    width: 230px;
     background-color: green;
     position: relative;
     display: flex;
@@ -144,13 +154,49 @@ border-radius: 10px;
     background-color: red;
     font-size: 15px;
     padding: 2px 7px;
+    color: white;
+
   
 
     
     
 }
 .item-desc{
+    margin: 10px 4px;
     
+    
+}
+.item-title{
+    color: black;
+    font-size: 20px;
+    
+    
+}
+.item-detail{
+    color: black;
+    font-size: 15px;
+
+    
+}
+.item-action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 0px 5px;
+}
+.item-price{
+    color: black;
+    font-size: 18px;
+    
+}
+.item-rent{
+    background: red;
+    padding: 4px 10px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
     
 }
 
@@ -161,6 +207,15 @@ border-radius: 10px;
   
     
     }
+
+    .items-con{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+        
+        
+                
+            }
 
 }
 
@@ -224,22 +279,18 @@ border-radius: 10px;
 
     
     .items-con{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+flex-wrap: nowrap;
+
 
 
         
     }
 
-    .items-con .item-link{
-        text-decoration: none;
-    }
+  
 
     .item{
         display: flex;
         flex-direction: column;
-        border: 1px solid black;
 
         
     }
@@ -249,9 +300,7 @@ border-radius: 10px;
         position: relative;
         z-index: -1;
 
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-end;
+
         
     }
     .item-image{
@@ -263,18 +312,14 @@ border-radius: 10px;
     .item-tag{
         position: absolute;
         margin: 15px 10px 0 0;
-        background-color: red;
         font-size: 15px;
         padding: 2px 7px;
-        color: white;
       
     
         
         
     }
     .item-desc{
-        text-decoration: none;
-        padding: 10px;
         
     }
     
