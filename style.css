@@ -334,12 +334,16 @@ border-radius: 10px;
     font-size: 25px;
 }
 
+.emm{
+    margin: 10px 0;
+}
+
 .email-title{
     font-size: 20px;
 }
 
 .email-input{
-    margin-top: 10px;
+    margin-top: 2px;
     width: 300px;
     height: 40px;
     padding: 0 10px;
@@ -510,5 +514,8 @@ border-radius: 10px;
     .foot-links{
         margin: 20px 0;
     
+    }
+    .email-input{
+        width: 230px;
     }
 }
