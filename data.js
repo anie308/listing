@@ -11,19 +11,19 @@ export const bicycles    = [
     {
         "id": 2,
         "name": "Black Slick Bicycle",
-        "price": "200",
+        "price": "290",
 
     },
     {
         "id": 3,
         "name": "Black Slick Bicycle",
-        "price": "200",
+        "price": "310",
 
     },
     {
         "id": 4,
         "name": "Black Slick Bicycle",
-        "price": "200",
+        "price": "100",
 
     },
     {
@@ -62,19 +62,19 @@ export const cards =[
     {
         "id": 1,
         "name": "John Doe",
-        "review" : "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et inventore, ut doloremque a delectus ab eos suscipit libero maiores, sapiente tempora eveniet omnis quisquam dolorem ea at animi velit sunt!"
+        "review" : "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et inventore, ut doloremque a delectus ab eos suscipit libero maiores!"
 
     },
     {
         "id": 1,
         "name": "John Doe",
-        "review" : "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et inventore, ut doloremque a delectus ab eos suscipit libero maiores, sapiente tempora eveniet omnis quisquam dolorem ea at animi velit sunt!"
+        "review" : "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et inventore, ut doloremque a delectus ab eos suscipit libero maiores"
 
     },
     {
         "id": 1,
         "name": "John Doe",
-        "review" : "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et inventore, ut doloremque a delectus ab eos suscipit libero maiores, sapiente tempora eveniet omnis quisquam dolorem ea at animi velit sunt!"
+        "review" : "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et inventore, ut doloremque a delectus ab eos suscipit libero maiores"
 
     }
 ]

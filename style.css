@@ -131,6 +131,7 @@ border-radius: 10px;
 .tet{
     font-size: 40px;
     font-weight: 500;
+    text-align: center;
 }
 
 .items-con{
@@ -223,13 +224,17 @@ border-radius: 10px;
     
 }
 
+.testimonials{
+    padding: 40px 0;
+}
+
 .card-con{
     padding: 10px 50px;
 }
 
 .cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -244,8 +249,8 @@ border-radius: 10px;
 }
 
 .prof-img{
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
     background-color: aqua;
     margin-bottom: 20px;
@@ -269,6 +274,100 @@ border-radius: 10px;
     text-align: center;
     font-size: 25px;
 }
+
+.footer{
+    background: black;
+    padding: 40px 100px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.ftt{
+    color: white;
+}
+.ft-desc{
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.email{
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.num{
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.foot-links{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.foot-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 3px 0;
+}
+
+.login-con{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.login-card{
+    margin: auto 0;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.log-tit{
+    text-align: center;
+    font-size: 25px;
+}
+
+.email-title{
+    font-size: 20px;
+}
+
+.email-input{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.email-input::placeholder{
+    font-size: 18px;
+}
+
+.pass{
+    margin-top: 20px;
+}
+
+.form-sub{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.reg{
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 1024px){
     .nav-item a{
  
@@ -389,8 +488,27 @@ border-radius: 10px;
         padding: 40px 0 0 20px ;
          
      }
+
      .tet{
          font-size: 30px;
      }
     
+     .cards{
+   flex-direction: column;
+    }
+    .card{
+        width: 250px;
+        margin: 10px 0;
+    }
+
+    .footer{
+        padding: 20px;
+        flex-direction: column;
+
+    }
+
+    .foot-links{
+        margin: 20px 0;
+    
+    }
 }
