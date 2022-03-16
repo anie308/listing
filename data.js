@@ -60,11 +60,23 @@ export const bicycles    = [
 
 export const cards =[
     {
-        "id": 8,
+        "id": 1,
         "name": "John Doe",
         "review" : "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et inventore, ut doloremque a delectus ab eos suscipit libero maiores, sapiente tempora eveniet omnis quisquam dolorem ea at animi velit sunt!"
 
     },
+    {
+        "id": 1,
+        "name": "John Doe",
+        "review" : "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et inventore, ut doloremque a delectus ab eos suscipit libero maiores, sapiente tempora eveniet omnis quisquam dolorem ea at animi velit sunt!"
+
+    },
+    {
+        "id": 1,
+        "name": "John Doe",
+        "review" : "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et inventore, ut doloremque a delectus ab eos suscipit libero maiores, sapiente tempora eveniet omnis quisquam dolorem ea at animi velit sunt!"
+
+    }
 ]
 
 

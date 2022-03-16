@@ -3,7 +3,7 @@ import { bicycles, cards } from "./data.js";
 
 document.addEventListener('DOMContentLoaded', ()=>{
     const listData = document.querySelector('.items-con');
-    const cardData = document.querySelector('.card')
+    const cardData = document.querySelector('.cards')
 
     let bicycleOutput = '';
     let cardOutput = '';
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         <div class="item contain">
             <div class="item-image-con">
                 <img src="./assets/by1.jpg" alt="" class="item-image">
-                <div class="item-tag">$${bicycle.price}
+                <div class="item-tag">$${bicycle.price}.00
                 </div>
             </div>
             <div class="item-desc">
@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
                   ${bicycle.desc}
                 </div>
                 <div class="item-action">
-                   <div class="item-price"> </div>
                    <div class="item-rent">Rent</div>
                 </div>
 
@@ -42,7 +41,18 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
     cards.forEach((card) =>{
         cardOutput +=` 
-        
+        <div class="card">
+        <div class="prof-img">
+            <img src="" alt="">
+        </div>
+        <div class="profil-desc">
+          <div class="review">
+          ${card.review}
+          </div>
+          <div class="rev-name">${card.name}</div>
+        </div>
+
+    </div>
         
         
         
