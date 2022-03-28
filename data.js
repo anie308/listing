@@ -1,61 +1,43 @@
 
 
-export const bicycles    = [
+export const destinations    = [
     {
         "id": 1,
-        "name": "Black Slick Bicycle",
-        "desc": "Black Slick Bicycle",
-        "price": "200",
+        "name": "Italy",
+       "placeNum": 8,
         
     },
     {
         "id": 2,
-        "name": "Black Slick Bicycle",
-        "price": "290",
+        "name": "Brazil",
+        "placeNum": 3,
 
     },
     {
         "id": 3,
-        "name": "Black Slick Bicycle",
-        "price": "310",
+        "name": "America",
+        "placeNum": 10,
 
     },
     {
         "id": 4,
-        "name": "Black Slick Bicycle",
-        "price": "100",
+        "name": "Nepal",
+        "placeNum": 2,
 
     },
     {
         "id": 5,
-        "name": "Black Slick Bicycle",
-        "price": "200",
+        "name": "Maldives",
+        "placeNum": 2,
 
     },
     {
         "id": 6,
-        "name": "Black Slick Bicycle",
-        "price": "200",
+        "name": "Indonesia",
+        "placeNum": 5,
 
-    },
-    {
-        "id": 7,
-        "name": "Black Slick Bicycle",
-        "price": "200",
-
-    },
-    {
-        "id": 8,
-        "name": "Black Slick Bicycle",
-        "price": "200",
-
-    },
-    // {
-    //     "id": 9,
-    //     "name": "Black Slick Bicycle",
-    //     "price": "200",
-
-    // }
+    }
+    
 ]
 
 export const cards =[

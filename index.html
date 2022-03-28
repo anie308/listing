@@ -6,16 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./slick-theme.css">
+    <link rel="stylesheet" href="./slick.css">
     <title>Bicycle leasing app</title>
 </head>
 
 <body>
     <!=================================nav section==========================>
         <section class="container">
+
             <nav class="navbar">
                 <div class="log-con">
                     <div class="logo">
-                       <a href="#"> BikeOn</a>
+                        <a href="#"> Dokan Travels</a>
                     </div>
                     <div class="hamburger" id="toggle">
                         =
@@ -29,7 +32,7 @@
                         <a href="#">AboutUs</a>
                     </div>
                     <div class="nav-item">
-                        <a href="#list">Listings</a>
+                        <a href="#list">Places</a>
                     </div>
                     <div class="nav-item">
                         <a href="#">FAQ</a>
@@ -38,139 +41,180 @@
                         <a href="#">ContactUs</a>
                     </div>
 
-                    <div class="search">
-                       <form action="">
-                        <input type="text" placeholder="Search...">
-                        <button type="submit" class="search-icon">0</button>
-                       </form>
-                    </div>
+                   
                     <div class="profile">
-                      <a href="./login.html">
-                        <div class="user-con">
-                            Login
-                        </div>
-                      </a>
+                        <a href="./login.html">
+                            <div class="user-con">
+                                Login
+                            </div>
+                        </a>
                     </div>
                 </div>
             </nav>
         </section>
         <!=================================nav section==========================>
-        <!================================= banner section==========================>
+            <!================================= banner section==========================>
 
-        <section class="banner">
-            <div class="text-con">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero suscipit 
+              <section class="hero">
+                
 
-            </div>
+              </section>
 
-        </section>
- 
+             <section class="search">
+                <div class="search-wrap">
+                    <form action="" class="search-form">
+                      <div class="input-con"> 
+                           <h3 class="search-text">Where you want to go? </h3>
+                        </div>
+                      <div class="input-con">
+                        <input type="text" class="box" placeholder="Where to go?">
+                      </div>
+                      <div class="input-con">
+                          <input type="date" class="date" placeholder="Date">
+                      </div>
+                      <div class="input-con">
+                          <select name="Travel Type" id=""  class="select">
+                            <option value="">Travel Type</option>
+                            <option value="">Bus Transit</option>
+                            <option value="">Airplane</option>
+                          </select>
+                      </div>
+                      <div class="input-con">
+                          <button type="submit" class="submit">Search</button>
+                      </div>
 
-        <!=================================banner  section==========================>
-      
-      
-      
-  <!=================================new listings section==========================>
-       
-  <section class="new-container">
-      <div class="con-title">
-          <div class="tet" id="list">Listings</div>
-      </div>
-      <!===============data coming from mock js database=================>
-    <div class="items-con">
- 
-    </div>
-    <!===============data coming from mock js database=================>
-
-
-
-  </section>
-  
-  <!=================================new listings sections==========================>
-
-        
-
-<section class="testimonials">
-
-    <div class="tet">
-        Testimonials
-    </div>
-
-    <div class="card-con">
-        <div class="cards">
-    
-        
-        </div>
-        
-    </div>
-    
+                    </form>
+                </div>
+             </section>
 
 
-</section>
+                <!=================================banner section==========================>
 
 
-<section class="footer">
-<div class="foot-logo">
-    <div class="logo">  
-        <a href="#">BikeOn</a>
-    </div>
-    <div class="ftt">
-        <div class="ft-desc">
-            Bicycle rental directory
-        </div>
-        <div class="cont">
-            <div class="email">
-                name@example.com
-            </div>
-            <div class="num">
-                +2348134500000
-            </div>
-        </div>
-    </div>
-</div>
-<div class="foot-links">
-    <div>
-        <a href="" class="foot-link">Home</a>
-    </div>
-    <div>
-        <a href="" class="foot-link">AboutUs</a>
-    </div>
-    <div>
-        <a href="" class="foot-link">Listings</a>
-    </div>
-    <div>
-        <a href="" class="foot-link">FAQs</a>
-    </div>
-    <div>
-        <a href="" class="foot-link">ContactUs</a>
-    </div>
 
-</div>
-<div class="social">
-    <div>
-        <a href="" class="foot-link">Facebook</a>
-    </div>
-    <div>
-        <a href="" class="foot-link">Instagram</a>
-    </div>
-    <div>
-        <a href="" class="foot-link">Whatsapp</a>
-    </div>
-    <div>
-        <a href="" class="foot-link">Twitter</a>
-    </div>
-    
+                    <!=================================new listings section==========================>
+
+                       <section class="destinations">
+                        <div class="dest-text">
+                            <h3>Popular Destination</h3>
+                            <p>Suffered alteration in some form, by injected humour or good day <br/>  randomised booth anim 8-bit hella wolf moon beard words.</p>
+                            </div>
+                       </section>
+                            <!===============data coming from mock js database=================>
+                                <div class="items-con">
+                                  
+
+                                </div>
+                                <!===============data coming from mock js database=================>
 
 
-</div>
 
-</section>
+                        </section>
+
+                        <!=================================new listings sections==========================>
+
+                        <section class="newsletter">
+                            <div class="news-con">
+                                <h4>Subscribe Our Newsletter</h4>
+                                <p>Subscribe newsletter to get offers and about new places to discover.</p>
+                            </div>
+                            <div class="email-con">
+                             <form action="">
+                                <div>
+                                    <input type="email">
+                                </div>
+                                <div>
+                                    <button type="submit"></button>
+                                </div>
+                             </form>
+                            </div>
+
+                        </section>
+
+                            <!-- <section class="testimonials">
+
+                                <div class="tet">
+                                    Testimonials
+                                </div>
+
+                                <div class="card-con">
+                                    <div class="cards">
+
+
+                                    </div>
+
+                                </div>
+
+
+
+                            </section> -->
+
+
+                            <!-- <section class="footer">
+                                <div class="foot-logo">
+                                    <div class="logo">
+                                        <a href="#">BikeOn</a>
+                                    </div>
+                                    <div class="ftt">
+                                        <div class="ft-desc">
+                                            Bicycle rental directory
+                                        </div>
+                                        <div class="cont">
+                                            <div class="email">
+                                                name@example.com
+                                            </div>
+                                            <div class="num">
+                                                +2348134500000
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="foot-links">
+                                    <div>
+                                        <a href="" class="foot-link">Home</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="foot-link">AboutUs</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="foot-link">Listings</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="foot-link">FAQs</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="foot-link">ContactUs</a>
+                                    </div>
+
+                                </div>
+                                <div class="social">
+                                    <div>
+                                        <a href="" class="foot-link">Facebook</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="foot-link">Instagram</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="foot-link">Whatsapp</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="foot-link">Twitter</a>
+                                    </div>
+
+
+
+                                </div>
+
+                            </section> -->
 
 
 
 
 </body>
+
 <script src="./app.js"></script>
 <script type="module" src="./setData.js"></script>
+
+
+
 </html>

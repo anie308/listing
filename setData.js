@@ -1,4 +1,4 @@
-import { bicycles, cards } from "./data.js";
+import { destinations, cards } from "./data.js";
 
 
 document.addEventListener('DOMContentLoaded', ()=>{
@@ -9,30 +9,28 @@ document.addEventListener('DOMContentLoaded', ()=>{
     let cardOutput = '';
 
     
-    bicycles.forEach((bicycle) => {
+    destinations.forEach((destination) => {
         bicycleOutput+=`
         <a href="./itemPage.html" class="item-link">
-        <div class="item contain">
-            <div class="item-image-con">
-                <img src="./assets/by1.jpg" alt="" class="item-image">
-                <div class="item-tag">$${bicycle.price}.00
-                </div>
-            </div>
-            <div class="item-desc">
-                <div class="item-title">
-                    ${bicycle.name}
-                </div>
-                <div class="item-detail">
-                  ${bicycle.desc}
-                </div>
-                <div class="item-action">
-                   <div class="item-rent">Rent</div>
-                </div>
-
-            </div>
-        </div>
-      </a>
-        
+                                        <div class="item-contain">
+                                            <div class="item-image-con">
+                                                <img src="./assets/destination.webp" alt="" class="item-image">
+                                                <div class="item-tag">
+                                                </div>
+                                            </div>
+                                            <div class="item-desc">
+                                                <div class="item-title">
+                                                   ${destination.name}
+                                                </div>
+                                                <div class="item-detail">
+                                                    ${destination.placeNum}&nbsp;places
+                                                  
+                                                </div>
+                                              
+                                
+                                            </div>
+                                        </div>
+            </a>
         
         
         
